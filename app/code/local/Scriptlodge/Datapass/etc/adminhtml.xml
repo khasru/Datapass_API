@@ -1,0 +1,23 @@
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <datapass translate="title" module="Scriptlodge_Datapass">
+                                        <title>DataPass</title>
+                                    </datapass>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    
+                </children>
+            </admin>
+        </resources>
+    </acl>
+   
+</config>
